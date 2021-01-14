@@ -19,7 +19,17 @@ travel {
     "I'm going to \($0) at \($1) miles per hour."
 }
 
+//RETURNING CLOSURES FROM FUNCTIONS
+//Travel function that accepts no parameters, but returns a closure. The closure that is returned must be called with a string and will return nothing
 
+func travel() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+let result = travel()
+result("London")
 
 
 
