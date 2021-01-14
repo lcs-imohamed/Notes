@@ -31,6 +31,22 @@ func travel() -> (String) -> Void {
 let result = travel()
 result("London")
 
+//USING CLOSURES AS PARAMETERS WHEN THEY ACCEPT PARAMETERS
+//A closure you pass into a function can also accept its own parameters.
+
+//function that accepts a closure as its only parameter
+
+func travel(action: (String) -> Void) {
+    print("I'm getting ready to go.")
+    action("London")
+    print("I arrived!")
+}
+travel { (place: String) in
+    print("I'm going to \(place) in my car")
+}
+
+
+
 
 
 //: [Next](@next)
