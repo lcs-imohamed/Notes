@@ -77,6 +77,11 @@ travel {
     "I'm going to \($0) in my car"
 }
 
+//SUMMARY
+//You can pass closures into functions as parameters, and those closures can have parameters of their own and a return value.
+//If the last parameter to your function is a closure, you can use trailing closure syntax.
+//Swift automatically provides shorthand parameter names like $0 and $1, but not everyone uses them.
+
 
 
 
