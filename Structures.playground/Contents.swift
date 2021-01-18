@@ -62,12 +62,24 @@ struct Progress {
 //Functions inside structs are methods
 //Struct city with population property, collect taxes method
 
-struct City {
-    var population: Int
+//struct City {
+//    var population: Int
+//
+//    func collectTaxes() -> Int {
+//        return population * 1000
+//    }
+//}
+//let london = City(population: 9_000_000)
+//london.collectTaxes()
 
-    func collectTaxes() -> Int {
-        return population * 1000
+//MUTATING METHODS
+//In order to change a property inside a method use mutating key word
+struct Person {
+    var name: String
+
+    mutating func makeAnonymous() {
+        name = "Anonymous"
     }
 }
-let london = City(population: 9_000_000)
-london.collectTaxes()
+var person = Person(name: "Ed")
+person.makeAnonymous()
