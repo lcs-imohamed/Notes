@@ -58,4 +58,16 @@ struct Progress {
 }
 //Can also use willSet to take action before a property changes
 
+//METHODS
+//Functions inside structs are methods
+//Struct city with population property, collect taxes method
 
+struct City {
+    var population: Int
+
+    func collectTaxes() -> Int {
+        return population * 1000
+    }
+}
+let london = City(population: 9_000_000)
+london.collectTaxes()
