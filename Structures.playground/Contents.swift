@@ -83,3 +83,20 @@ struct Person {
 }
 var person = Person(name: "Ed")
 person.makeAnonymous()
+
+//PROPERTIES AND METHODS OF STRINGS
+//Test string
+let string = "Do or do not, there is no try."
+
+//Read number of characters using count property
+print(string.count)
+
+//Method returns true if string starts with specific letters
+print(string.hasPrefix("Do"))
+
+//Uppercase string
+print(string.uppercased())
+
+//Sort letters of string into array
+print(string.sorted())
+
