@@ -27,6 +27,7 @@
 		333956B625ADF4FE00557000 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		333956BE25ADF55300557000 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3380431D25AF415A00B53B51 /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		33B1589225B616FE00A840E9 /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 		333956AA25ADF4FE00557000 = {
 			isa = PBXGroup;
 			children = (
+				33B1589225B616FE00A840E9 /* Structures.playground */,
 				3380431D25AF415A00B53B51 /* Closures.playground */,
 				333956BE25ADF55300557000 /* Functions.playground */,
 				333956B525ADF4FE00557000 /* Notes */,

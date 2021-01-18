@@ -2,8 +2,6 @@
 
 import Foundation
 
-var str = "Hello, playground"
-
 //CLOSURES WITH MULTIPLE PARAMETERS
 //Closure requires two parameters: where the person is going and the speed they are travelling at
 
@@ -81,11 +79,6 @@ travel {
 //You can pass closures into functions as parameters, and those closures can have parameters of their own and a return value.
 //If the last parameter to your function is a closure, you can use trailing closure syntax.
 //Swift automatically provides shorthand parameter names like $0 and $1, but not everyone uses them.
-
-
-
-
-
 
 
 //: [Next](@next)
