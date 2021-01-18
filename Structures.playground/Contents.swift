@@ -100,6 +100,8 @@ print(string.uppercased())
 //Sort letters of string into array
 print(string.sorted())
 
+//Properties and methods of arrays
+
 var toys = ["Woody"]
 
 //Read number of items with count property
@@ -116,3 +118,8 @@ print(toys.sorted())
 
 //Remove item
 toys.remove(at: 0)
+
+//SUMMARY
+//You can create your own types using structures, which can have their own properties and methods.
+//You can use stored properties or use computed properties to calculate values on the fly.
+//If you want to change a property inside a method, you must mark it as mutating.
