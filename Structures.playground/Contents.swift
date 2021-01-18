@@ -100,3 +100,19 @@ print(string.uppercased())
 //Sort letters of string into array
 print(string.sorted())
 
+var toys = ["Woody"]
+
+//Read number of items with count property
+print(toys.count)
+
+//Append to add a new item
+toys.append("Buzz")
+
+//Locate item in array
+toys.firstIndex(of: "Buzz")
+
+//Sort arrays alphabetically
+print(toys.sorted())
+
+//Remove item
+toys.remove(at: 0)
