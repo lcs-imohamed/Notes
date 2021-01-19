@@ -86,4 +86,44 @@ struct Student {
 
 print(Student.classSize)
 
+//ACCESS CONTROL
+//helps to restrict which code can use properties and methods
+//important because it could stop people from a property directly
+
+struct Person {
+    var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+}
+
+let ed = Person(id: "12345")
+
+//Use private key word
+
+struct Person {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+}
+
+//Only methods inside person can read id
+
+struct Person {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
+
+
+
 //: [Next](@next)
