@@ -56,5 +56,34 @@ struct FamilyTree {
 //Adding the lazy keyword will cause property to only create struct when it's first accessed
 lazy var familyTree = FamilyTree()
 
+ed.familyTree
+
+
+//STATIC PROPERTIES AND METHODS
+
+struct Student {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+
+let ed = Student(name: "Ed")
+let taylor = Student(name: "Taylor")
+
+//Declaring properties as static allows Swift to share specific properties and methods across all instances of struct
+
+struct Student {
+    static var classSize = 0
+    var name: String
+
+    init(name: String) {
+        self.name = name
+        Student.classSize += 1
+    }
+}
+//Since classSize belongs to the struct rather than instances of struct it is read using student.classSize
+
+print(Student.classSize)
 
 //: [Next](@next)
