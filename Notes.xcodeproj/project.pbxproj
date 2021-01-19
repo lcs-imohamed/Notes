@@ -28,6 +28,7 @@
 		333956BE25ADF55300557000 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3380431D25AF415A00B53B51 /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		33B1589225B616FE00A840E9 /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		33B1589425B7252E00A840E9 /* Structure and Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Structure and Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		333956AA25ADF4FE00557000 = {
 			isa = PBXGroup;
 			children = (
+				33B1589425B7252E00A840E9 /* Structure and Classes.playground */,
 				33B1589225B616FE00A840E9 /* Structures.playground */,
 				3380431D25AF415A00B53B51 /* Closures.playground */,
 				333956BE25ADF55300557000 /* Functions.playground */,
