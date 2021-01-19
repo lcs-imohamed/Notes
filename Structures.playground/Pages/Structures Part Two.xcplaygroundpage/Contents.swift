@@ -39,6 +39,22 @@ struct Person {
     }
 }
 
+//LAZY PROPERTIES
+//Properties that are only created when needed
+
+struct FamilyTree {
+    init() {
+        print("Creating family tree!")
+    }
+}
+
+struct FamilyTree {
+    init() {
+        print("Creating family tree!")
+    }
+}
+//Adding the lazy keyword will cause property to only create struct when it's first accessed
+lazy var familyTree = FamilyTree()
 
 
 //: [Next](@next)
