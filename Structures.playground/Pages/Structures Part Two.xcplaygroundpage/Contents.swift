@@ -26,5 +26,19 @@ var user = User()
 user.username = "twostraws"
 
 
+//REFERRING TO THE CURRENT INSTANCE
+//Inside methods special constant called self which points to whatever instance of the struct is currently being used
+
+//Self.name refers to property whereas name refers to parameter
+struct Person {
+    var name: String
+
+    init(name: String) {
+        print("\(name) was born!")
+        self.name = name
+    }
+}
+
+
 
 //: [Next](@next)
